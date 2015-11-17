@@ -7,16 +7,16 @@ https://github.com/tsenart/vegeta
 
 ### How to install
 
-* install docker
+* install docker and docker-compose
 
 ```
-$ docker pull koudaiii/vegeta-sample
+$ docker-compose build
 ```
 
 ### Use
 
 ```
- $ docker run koudaiii/vegeta-sample
+ $ docker-compose up
 ```
 
 * display help in vegeta
