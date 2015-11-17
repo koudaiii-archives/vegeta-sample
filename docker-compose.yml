@@ -1,0 +1,4 @@
+vegeta:
+  build: .
+  volumes:
+    - .:/app
